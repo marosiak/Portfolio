@@ -1,0 +1,18 @@
+@import "mixins";
+@import "sections/intro";
+@import "sections/about";
+@import "sections/skills";
+@import "sections/contact";
+
+*, ::after, ::before {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}

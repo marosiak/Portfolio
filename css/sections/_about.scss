@@ -1,0 +1,20 @@
+#about {
+  .about__container {
+    @include container-position;
+
+    .about__header, .about__paragraph {
+      padding-left: 9px;
+    }
+
+    .about__header {
+      font-size: xx-large;
+      font-weight: 300;
+      @include header-decoration;
+    }
+
+    .about__paragraph {
+      margin-top: 24px;
+      width: 50vw;
+    }
+  }
+}

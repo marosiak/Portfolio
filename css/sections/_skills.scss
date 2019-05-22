@@ -1,0 +1,52 @@
+#skills {
+  .skills__container {
+    @include container-position;
+    top: 13%; // yes, I'm overriding ^
+
+    .skills__header, .skills__sets {
+      padding-left: 10px;
+      margin-bottom: 7px;
+    }
+
+    .skills__header {
+      font-size: xx-large;
+      font-weight: 300;
+      @include header-decoration;
+    }
+
+    .skills__sets {
+      display: flex;
+      margin-top: 38px;
+      margin-bottom: 76px;
+
+      .sets__set {
+        margin-right: 64px;
+        margin-left: 64px;
+
+        .set__header {
+          font-size: large;
+          margin-bottom: 24px;
+          position: relative;
+
+          &::after {
+            content: '';
+            height: .3rem;
+            background-color: $header-decoration-color;
+            opacity: .7;
+            margin-top: .5rem;
+            width: 3rem;
+            display: block;
+          }
+        }
+
+        ul {
+          padding-left: 4px;
+          font-size: medium;
+          li {
+            padding-top: 8px;
+          }
+        }
+      }
+    }
+  }
+}

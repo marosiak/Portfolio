@@ -1,0 +1,24 @@
+#intro {
+  background-color: #141414;
+  color: white;
+
+  .intro__container {
+    @include container-position;
+    top: 40%;
+    .intro__header, .intro__leader {
+      padding-left: 8px;
+    }
+
+    .intro__header {
+      font-size: xx-large;
+      font-weight: normal;
+      @include header-decoration;
+    }
+
+    .intro__leader {
+      margin-top: 12px;
+      font-size: x-large;
+      font-weight: 300;
+    }
+  }
+}

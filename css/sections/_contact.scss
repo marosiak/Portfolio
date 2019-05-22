@@ -1,0 +1,41 @@
+#contact {
+  background-color: #141414;
+  color: white;
+  height: 35vh;
+  .contact__container {
+    @include container-position;
+
+    .contact__header {
+      font-size: xx-large;
+      font-weight: 300;
+      @include header-decoration;
+      padding-left: 10px;
+    }
+    ul {
+      margin-top: 16px;
+      li {
+        font-size: 14pt;
+        display: inline-flex;
+        flex-direction: row;
+        padding-right: 5px;
+        i {
+          font-size: 19pt;
+          padding-right: 15px;
+        }
+        a, input[type=button] {
+          padding-right: 35px;
+          padding-bottom: 10px;
+          padding-top: 10px;
+          width: 100%;
+          text-decoration: none;
+          margin-top: 2px;
+          color: white;
+          display: flex; align-items: center;
+        }
+        a:hover {
+          opacity: .5;
+        }
+      }
+    }
+  }
+}
