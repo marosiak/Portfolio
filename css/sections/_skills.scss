@@ -1,9 +1,6 @@
 .skills {
   background: antiquewhite; // debug purpose
-  height: 100vh;
-  @include phone {
-    height: 115vh;
-  }
+  height: 115vh;
   .container--skills {
     @include container;
     top: 15%;
@@ -14,7 +11,7 @@
 
     .header--skills, .skills__sets {
       padding-left: 10px;
-      margin-bottom: 7px;
+      margin-bottom: 8px;
     }
 
     .header--skills {
