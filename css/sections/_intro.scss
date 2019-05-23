@@ -3,14 +3,14 @@
   color: white;
 
   .container--intro {
-    @extend .container;
+    @include container;
     top: 40%;
     .header--intro, .intro__lead {
       padding-left: 8px;
     }
 
     .header--intro {
-      @extend .header;
+      @include header;
       font-size: xx-large;
       font-weight: normal;
 

@@ -1,0 +1,22 @@
+@mixin phone {
+  @media only screen and (max-width: 480px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media only screen and (max-width: 640px) {
+    @content;
+  }
+}
+@mixin header {
+  border-left: .3rem solid $header-decoration-color;
+  padding-top: .4rem;
+  padding-bottom: .5rem;
+  letter-spacing: 1.33px;
+}
+
+@mixin container {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+}

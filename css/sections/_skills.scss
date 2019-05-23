@@ -1,15 +1,15 @@
 .skills {
+  //background: antiquewhite; // debug purpose
   .container--skills {
-    @extend .container;
-    top: 13%;
-
+    @include container;
+    top: 15%;
     .header--skills, .skills__sets {
       padding-left: 10px;
       margin-bottom: 7px;
     }
 
     .header--skills {
-      @extend .header; 
+      @include header;
       font-size: xx-large;
       font-weight: 300;
     }
@@ -18,10 +18,12 @@
       display: flex;
       margin-top: 38px;
       margin-bottom: 76px;
-
       .sets__set {
-        margin-right: 64px;
-        margin-left: 64px;
+        margin-top: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-right: calc((20vw/5)/2);
+        margin-left: calc((20vw/5)/2);
 
         .set__header {
           font-size: large;
