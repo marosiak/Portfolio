@@ -1,8 +1,13 @@
 .skills {
-  //background: antiquewhite; // debug purpose
+  background: antiquewhite; // debug purpose
   .container--skills {
     @include container;
     top: 15%;
+    right: 3%;
+    @include tablet {
+      top: 5%;
+    }
+
     .header--skills, .skills__sets {
       padding-left: 10px;
       margin-bottom: 7px;
@@ -18,12 +23,21 @@
       display: flex;
       margin-top: 38px;
       margin-bottom: 76px;
+      flex-wrap: wrap;
+      @include phone {
+        margin-top: 10px;
+        margin-right: 19px;
+        justify-content: space-between;
+      }
       .sets__set {
-        margin-top: 15px;
-        padding-right: 30px;
-        padding-left: 30px;
-        margin-right: calc((20vw/5)/2);
-        margin-left: calc((20vw/5)/2);
+        padding: 25px 3.7vw;
+        @include tablet {
+          padding: 25px 5vw;
+        }
+        @include phone {
+          width: 50%;
+          padding: 25px 4.5vw;
+        }
 
         .set__header {
           font-size: large;
@@ -42,11 +56,13 @@
         }
 
         ul {
-          padding-left: 4px;
+          padding-left: 0px;
           font-size: medium;
 
           li {
             padding-top: 8px;
+            padding-right: 8px;
+            width: 90px;
           }
         }
       }

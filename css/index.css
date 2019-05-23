@@ -51,11 +51,20 @@
   }
 }
 
+.skills {
+  background: antiquewhite;
+}
 .skills .container--skills {
   position: absolute;
   top: 25%;
   left: 8%;
   top: 15%;
+  right: 3%;
+}
+@media only screen and (max-width: 640px) {
+  .skills .container--skills {
+    top: 5%;
+  }
 }
 .skills .container--skills .header--skills, .skills .container--skills .skills__sets {
   padding-left: 10px;
@@ -73,13 +82,28 @@
   display: flex;
   margin-top: 38px;
   margin-bottom: 76px;
+  flex-wrap: wrap;
+}
+@media only screen and (max-width: 480px) {
+  .skills .container--skills .skills__sets {
+    margin-top: 10px;
+    margin-right: 19px;
+    justify-content: space-between;
+  }
 }
 .skills .container--skills .skills__sets .sets__set {
-  margin-top: 15px;
-  padding-right: 30px;
-  padding-left: 30px;
-  margin-right: calc((20vw/5)/2);
-  margin-left: calc((20vw/5)/2);
+  padding: 25px 3.7vw;
+}
+@media only screen and (max-width: 640px) {
+  .skills .container--skills .skills__sets .sets__set {
+    padding: 25px 5vw;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .skills .container--skills .skills__sets .sets__set {
+    width: 50%;
+    padding: 25px 4.5vw;
+  }
 }
 .skills .container--skills .skills__sets .sets__set .set__header {
   font-size: large;
@@ -96,11 +120,13 @@
   display: block;
 }
 .skills .container--skills .skills__sets .sets__set ul {
-  padding-left: 4px;
+  padding-left: 0px;
   font-size: medium;
 }
 .skills .container--skills .skills__sets .sets__set ul li {
   padding-top: 8px;
+  padding-right: 8px;
+  width: 90px;
 }
 
 .contact {
@@ -161,6 +187,7 @@ section {
   height: 100vh;
   position: relative;
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=index.css.map */
