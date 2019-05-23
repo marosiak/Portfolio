@@ -2,11 +2,11 @@
   .container--about {
     @extend .container;
 
-    .about--header, .about__paragraph {
+    .header--about, .about__paragraph {
       padding-left: 9px;
     }
 
-    .about--header {
+    .header--about {
       @extend .header;
       font-size: xx-large;
       font-weight: 300;

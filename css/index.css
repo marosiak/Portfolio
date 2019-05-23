@@ -18,10 +18,10 @@
   font-weight: 300;
 }
 
-.about .container--about .about--header, .about .container--about .about__paragraph {
+.about .container--about .header--about, .about .container--about .about__paragraph {
   padding-left: 9px;
 }
-.about .container--about .about--header {
+.about .container--about .header--about {
   font-size: xx-large;
   font-weight: 300;
 }
@@ -110,7 +110,7 @@
   opacity: 0.5;
 }
 
-.header, .intro .container--intro .header--intro, .about .container--about .about--header, .skills .container--skills .header--skills, .contact .container--contact .header--contact {
+.header, .intro .container--intro .header--intro, .about .container--about .header--about, .skills .container--skills .header--skills, .contact .container--contact .header--contact {
   border-left: 0.3rem solid #f44245;
   padding-top: 0.4rem;
   padding-bottom: 0.5rem;

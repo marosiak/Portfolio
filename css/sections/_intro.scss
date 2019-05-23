@@ -5,7 +5,6 @@
   .container--intro {
     @extend .container;
     top: 40%;
-
     .header--intro, .intro__lead {
       padding-left: 8px;
     }
@@ -14,8 +13,8 @@
       @extend .header;
       font-size: xx-large;
       font-weight: normal;
-    }
 
+    }
     .intro__lead {
       margin-top: 12px;
       font-size: x-large;
