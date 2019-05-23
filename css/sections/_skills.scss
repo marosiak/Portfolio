@@ -1,6 +1,9 @@
 .skills {
   background: antiquewhite; // debug purpose
-  height: 115vh;
+  height: 100vh;
+  @include phone {
+    height: 115vh;
+  }
   .container--skills {
     @include container;
     top: 15%;
