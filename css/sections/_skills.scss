@@ -1,17 +1,17 @@
-#skills {
-  .skills__container {
-    @include container-position;
-    top: 13%; // yes, I'm overriding ^
+.skills {
+  .container--skills {
+    @extend .container;
+    top: 13%;
 
-    .skills__header, .skills__sets {
+    .header--skills, .skills__sets {
       padding-left: 10px;
       margin-bottom: 7px;
     }
 
-    .skills__header {
+    .header--skills {
+      @extend .header;
       font-size: xx-large;
       font-weight: 300;
-      @include header-decoration;
     }
 
     .skills__sets {
@@ -42,6 +42,7 @@
         ul {
           padding-left: 4px;
           font-size: medium;
+
           li {
             padding-top: 8px;
           }

@@ -1,8 +1,21 @@
-@import "mixins";
+@import "colors";
 @import "sections/intro";
 @import "sections/about";
 @import "sections/skills";
 @import "sections/contact";
+
+.header { // this is going to be extended
+  border-left: .3rem solid $header-decoration-color;
+  padding-top: .4rem;
+  padding-bottom: .5rem;
+  letter-spacing: 1.33px;
+}
+
+.container { // this is going to be extended
+  position: absolute;
+  top: 25%;
+  left: 8%;
+}
 
 *, ::after, ::before {
   margin: 0;

@@ -1,15 +1,15 @@
-#about {
-  .about__container {
-    @include container-position;
+.about {
+  .container--about {
+    @extend .container;
 
-    .about__header, .about__paragraph {
+    .about--header, .about__paragraph {
       padding-left: 9px;
     }
 
-    .about__header {
+    .about--header {
+      @extend .header;
       font-size: xx-large;
       font-weight: 300;
-      @include header-decoration;
     }
 
     .about__paragraph {

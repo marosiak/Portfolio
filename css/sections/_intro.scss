@@ -1,21 +1,22 @@
-#intro {
-  background-color: #141414;
+.intro {
+  background-color: $background-color;
   color: white;
 
-  .intro__container {
-    @include container-position;
+  .container--intro {
+    @extend .container;
     top: 40%;
-    .intro__header, .intro__leader {
+
+    .header--intro, .intro__lead {
       padding-left: 8px;
     }
 
-    .intro__header {
+    .header--intro {
+      @extend .header;
       font-size: xx-large;
       font-weight: normal;
-      @include header-decoration;
     }
 
-    .intro__leader {
+    .intro__lead {
       margin-top: 12px;
       font-size: x-large;
       font-weight: 300;
