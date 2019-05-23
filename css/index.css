@@ -53,6 +53,7 @@
 
 .skills {
   background: antiquewhite;
+  height: 115vh;
 }
 .skills .container--skills {
   position: absolute;
