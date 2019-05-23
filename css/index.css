@@ -29,6 +29,11 @@
   margin-top: 24px;
   width: 50vw;
 }
+@media only screen and (max-width: 640px) {
+  .about .container--about .about__paragraph {
+    width: 85vw;
+  }
+}
 
 .skills .container--skills {
   top: 13%;

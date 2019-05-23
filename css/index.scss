@@ -3,6 +3,11 @@
     @content;
   }
 }
+@mixin tablet {
+  @media only screen and (max-width: 640px) {
+    @content;
+  }
+}
 @import "colors";
 @import "sections/intro";
 @import "sections/about";
