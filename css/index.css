@@ -53,7 +53,11 @@
 
 .skills {
   background: antiquewhite;
-  height: 115vh;
+}
+@media only screen and (max-width: 640px) {
+  .skills {
+    height: 115vh;
+  }
 }
 .skills .container--skills {
   position: absolute;
