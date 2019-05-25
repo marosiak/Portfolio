@@ -4,7 +4,7 @@
 }
 .intro .container--intro {
   margin-top: 25vh;
-  margin-left: 8vh;
+  margin-left: 3rem;
   top: 40%;
 }
 .intro .container--intro .header--intro, .intro .container--intro .intro__lead {
@@ -26,7 +26,7 @@
 
 .about .container--about {
   margin-top: 25vh;
-  margin-left: 8vh;
+  margin-left: 3rem;
 }
 .about .container--about .header--about, .about .container--about .about__paragraph {
   padding-left: 9px;
@@ -59,7 +59,7 @@
 }
 .skills .container--skills {
   margin-top: 25vh;
-  margin-left: 8vh;
+  margin-left: 3rem;
 }
 @media only screen and (max-width: 640px) {
   .skills .container--skills {
@@ -136,7 +136,7 @@
 }
 .contact .container--contact {
   margin-top: 25vh;
-  margin-left: 8vh;
+  margin-left: 3rem;
   margin-top: 6vh;
   margin-bottom: 6vh;
 }
