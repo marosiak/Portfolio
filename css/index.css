@@ -5,7 +5,12 @@
 .intro .container--intro {
   margin-top: 25vh;
   margin-left: 3rem;
-  top: 40%;
+  margin-top: 40vh;
+}
+@media only screen and (max-width: 640px) {
+  .intro .container--intro {
+    margin-left: 2.6rem;
+  }
 }
 .intro .container--intro .header--intro, .intro .container--intro .intro__lead {
   padding-left: 8px;
@@ -27,6 +32,11 @@
 .about .container--about {
   margin-top: 25vh;
   margin-left: 3rem;
+}
+@media only screen and (max-width: 640px) {
+  .about .container--about {
+    margin-left: 2.6rem;
+  }
 }
 .about .container--about .header--about, .about .container--about .about__paragraph {
   padding-left: 9px;
@@ -60,6 +70,11 @@
 .skills .container--skills {
   margin-top: 25vh;
   margin-left: 3rem;
+}
+@media only screen and (max-width: 640px) {
+  .skills .container--skills {
+    margin-left: 2.6rem;
+  }
 }
 @media only screen and (max-width: 640px) {
   .skills .container--skills {
@@ -139,6 +154,11 @@
   margin-left: 3rem;
   margin-top: 6vh;
   margin-bottom: 6vh;
+}
+@media only screen and (max-width: 640px) {
+  .contact .container--contact {
+    margin-left: 2.6rem;
+  }
 }
 .contact .container--contact .header--contact {
   border-left: 0.3rem solid #f44245;

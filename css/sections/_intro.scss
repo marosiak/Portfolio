@@ -4,7 +4,7 @@
 
   .container--intro {
     @include container;
-    top: 40%;
+    margin-top: 40vh;
     .header--intro, .intro__lead {
       padding-left: 8px;
     }
