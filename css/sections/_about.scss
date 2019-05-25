@@ -2,10 +2,12 @@
   .container--about {
     @include container;
     height: 70vh;
+    @include phone {
+      margin-top: 3rem;
+    }
     .header--about, .about__paragraph {
       padding-left: 9px;
     }
-
     .header--about {
       @include header;
       font-size: xx-large;
@@ -22,6 +24,7 @@
     .button {
       margin-top: 5.2vh;
       margin-left: 9px;
+      margin-right: 1rem;
     }
   }
 }
