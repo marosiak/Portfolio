@@ -32,6 +32,7 @@
 .about .container--about {
   margin-top: 25vh;
   margin-left: 3rem;
+  height: 70vh;
 }
 @media only screen and (max-width: 640px) {
   .about .container--about {
@@ -57,6 +58,10 @@
   .about .container--about .about__paragraph {
     width: 85vw;
   }
+}
+.about .container--about .button {
+  margin-top: 4.5vh;
+  margin-left: 9px;
 }
 
 .skills {
@@ -201,6 +206,29 @@
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid #141414;
+  display: inline-block;
+  cursor: pointer;
+  color: #141414;
+  font-family: Arial;
+  font-size: 19px;
+  padding: 13px 43px;
+  text-decoration: none;
+  transition: all 250ms;
+}
+
+.button:hover {
+  background-color: #141414;
+  color: white;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
 }
 
 section {
