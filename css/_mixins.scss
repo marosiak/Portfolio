@@ -16,7 +16,6 @@
 }
 
 @mixin container {
-  position: absolute;
-  top: 25%;
-  left: 8%;
+  margin-top: 25vh;
+  margin-left: 8vh;
 }

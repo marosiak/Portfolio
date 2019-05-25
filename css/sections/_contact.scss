@@ -1,11 +1,12 @@
 .contact {
   background-color: $background-color;
   color: white;
-  height: 35vh;
+  height: auto;
 
   .container--contact {
     @include container;
-
+    margin-top: 6vh;
+    margin-bottom: 6vh;
     .header--contact {
       @include header;
       font-size: x-large;

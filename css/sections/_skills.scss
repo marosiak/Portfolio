@@ -1,14 +1,12 @@
 .skills {
   background: antiquewhite; // debug purpose
   @include tablet {
-    height: 115vh; 
+    height: auto;
   }
   .container--skills {
     @include container;
-    top: 15%;
-    right: 3%;
     @include tablet {
-      top: 5%;
+      margin-top: 5vh;
     }
 
     .header--skills, .skills__sets {

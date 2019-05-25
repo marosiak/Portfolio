@@ -3,9 +3,8 @@
   color: white;
 }
 .intro .container--intro {
-  position: absolute;
-  top: 25%;
-  left: 8%;
+  margin-top: 25vh;
+  margin-left: 8vh;
   top: 40%;
 }
 .intro .container--intro .header--intro, .intro .container--intro .intro__lead {
@@ -26,9 +25,8 @@
 }
 
 .about .container--about {
-  position: absolute;
-  top: 25%;
-  left: 8%;
+  margin-top: 25vh;
+  margin-left: 8vh;
 }
 .about .container--about .header--about, .about .container--about .about__paragraph {
   padding-left: 9px;
@@ -56,19 +54,16 @@
 }
 @media only screen and (max-width: 640px) {
   .skills {
-    height: 115vh;
+    height: auto;
   }
 }
 .skills .container--skills {
-  position: absolute;
-  top: 25%;
-  left: 8%;
-  top: 15%;
-  right: 3%;
+  margin-top: 25vh;
+  margin-left: 8vh;
 }
 @media only screen and (max-width: 640px) {
   .skills .container--skills {
-    top: 5%;
+    margin-top: 5vh;
   }
 }
 .skills .container--skills .header--skills, .skills .container--skills .skills__sets {
@@ -137,12 +132,13 @@
 .contact {
   background-color: #141414;
   color: white;
-  height: 35vh;
+  height: auto;
 }
 .contact .container--contact {
-  position: absolute;
-  top: 25%;
-  left: 8%;
+  margin-top: 25vh;
+  margin-left: 8vh;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
 }
 .contact .container--contact .header--contact {
   border-left: 0.3rem solid #f44245;
