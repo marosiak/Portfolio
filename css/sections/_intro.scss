@@ -19,6 +19,9 @@
       margin-top: 12px;
       font-size: x-large;
       font-weight: 300;
+      @include wide {
+        font-size: 2vw;
+      }
     }
   }
 }

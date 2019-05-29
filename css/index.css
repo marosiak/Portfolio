@@ -20,13 +20,24 @@
   padding-top: 0.4rem;
   padding-bottom: 0.5rem;
   letter-spacing: 1.33px;
+  font-size: large;
   font-size: xx-large;
   font-weight: normal;
+}
+@media only screen and (min-width: 1700px) {
+  .intro .container--intro .header--intro {
+    font-size: 3vw;
+  }
 }
 .intro .container--intro .intro__lead {
   margin-top: 12px;
   font-size: x-large;
   font-weight: 300;
+}
+@media only screen and (min-width: 1700px) {
+  .intro .container--intro .intro__lead {
+    font-size: 2vw;
+  }
 }
 
 .about .container--about {
@@ -52,8 +63,14 @@
   padding-top: 0.4rem;
   padding-bottom: 0.5rem;
   letter-spacing: 1.33px;
+  font-size: large;
   font-size: xx-large;
   font-weight: 300;
+}
+@media only screen and (min-width: 1700px) {
+  .about .container--about .header--about {
+    font-size: 3vw;
+  }
 }
 .about .container--about .about__paragraph {
   margin-top: 24px;
@@ -64,10 +81,22 @@
     width: 85vw;
   }
 }
+@media only screen and (min-width: 1700px) {
+  .about .container--about .about__paragraph {
+    font-size: 1.5vw;
+    margin-top: 4vh;
+    width: 70vw;
+  }
+}
 .about .container--about .button {
   margin-top: 5.2vh;
   margin-left: 9px;
   margin-right: 1rem;
+}
+@media only screen and (min-width: 1700px) {
+  .about .container--about .button {
+    font-size: 1.8vw;
+  }
 }
 
 .skills {
@@ -101,8 +130,13 @@
   padding-top: 0.4rem;
   padding-bottom: 0.5rem;
   letter-spacing: 1.33px;
-  font-size: xx-large;
+  font-size: large;
   font-weight: 300;
+}
+@media only screen and (min-width: 1700px) {
+  .skills .container--skills .header--skills {
+    font-size: 3vw;
+  }
 }
 .skills .container--skills .skills__sets {
   display: flex;
@@ -136,6 +170,11 @@
   margin-bottom: 24px;
   position: relative;
 }
+@media only screen and (min-width: 1700px) {
+  .skills .container--skills .skills__sets .sets__set .set__header {
+    font-size: 2vw;
+  }
+}
 .skills .container--skills .skills__sets .sets__set .set__header::after {
   content: "";
   height: 0.3rem;
@@ -149,10 +188,20 @@
   padding-left: 0px;
   font-size: medium;
 }
+@media only screen and (min-width: 1700px) {
+  .skills .container--skills .skills__sets .sets__set ul {
+    font-size: 1.5vw;
+  }
+}
 .skills .container--skills .skills__sets .sets__set ul li {
   padding-top: 8px;
   padding-right: 8px;
   width: 90px;
+}
+@media only screen and (min-width: 1700px) {
+  .skills .container--skills .skills__sets .sets__set ul li {
+    width: 10vw;
+  }
 }
 
 .contact {
@@ -176,9 +225,20 @@
   padding-top: 0.4rem;
   padding-bottom: 0.5rem;
   letter-spacing: 1.33px;
+  font-size: large;
   font-size: x-large;
   font-weight: 300;
   padding-left: 10px;
+}
+@media only screen and (min-width: 1700px) {
+  .contact .container--contact .header--contact {
+    font-size: 3vw;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .contact .container--contact .header--contact {
+    font-size: 2.3vw;
+  }
 }
 .contact .container--contact ul {
   margin-top: 16px;
@@ -189,9 +249,21 @@
   flex-direction: row;
   padding-right: 5px;
 }
+@media only screen and (min-width: 1700px) {
+  .contact .container--contact ul li {
+    font-size: 1.7vw;
+    padding-right: 2vw;
+  }
+}
 .contact .container--contact ul li i {
   font-size: 19pt;
   padding-right: 15px;
+}
+@media only screen and (min-width: 1700px) {
+  .contact .container--contact ul li i {
+    font-size: 1.8vw;
+    padding-right: 1vw;
+  }
 }
 .contact .container--contact ul li a {
   padding-right: 35px;

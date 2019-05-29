@@ -20,11 +20,19 @@
       @include tablet {
         width: 85vw;
       }
+      @include wide {
+        font-size: 1.5vw;
+        margin-top: 4vh;
+        width: 70vw;
+      }
     }
     .button {
       margin-top: 5.2vh;
       margin-left: 9px;
       margin-right: 1rem;
+      @include wide {
+        font-size: 1.8vw;
+      }
     }
   }
 }
