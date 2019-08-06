@@ -1,5 +1,5 @@
 .skills {
-  background: antiquewhite; // debug purpose
+  background: antiquewhite;
   @include tablet {
     height: auto;
   }
@@ -64,7 +64,6 @@
           padding-left: 0px;
           font-size: medium;
           @include wide {
-            //font-size: 1.5vw;
             font-size: 1.9rem;
           }
           li {
