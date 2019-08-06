@@ -1,14 +1,12 @@
 .intro {
   background-color: $background-color;
   color: white;
-
   .container--intro {
     @include container;
     margin-top: 40vh;
     .header--intro, .intro__lead {
       padding-left: 8px;
     }
-
     .header--intro {
       @include header;
       font-size: xx-large;

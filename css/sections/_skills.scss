@@ -16,6 +16,7 @@
 
     .header--skills {
       @include header;
+      font-size: xx-large;
       font-weight: 300;
     }
 
@@ -43,7 +44,7 @@
         .set__header {
           font-size: large;
           @include wide {
-            font-size: 2vw;
+            font-size: 2rem;
           }
           margin-bottom: 24px;
           position: relative;
@@ -63,7 +64,8 @@
           padding-left: 0px;
           font-size: medium;
           @include wide {
-            font-size: 1.5vw;
+            //font-size: 1.5vw;
+            font-size: 1.9rem;
           }
           li {
             padding-top: 8px;
